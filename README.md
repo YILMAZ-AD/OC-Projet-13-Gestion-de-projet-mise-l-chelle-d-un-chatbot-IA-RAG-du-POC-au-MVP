@@ -1,3 +1,5 @@
+🇫🇷 Français | readme in english 👉 [🇬🇧 English](README.en.md)
+
 # Du POC au MVP : étude de conception et gestion de projet (Puls-Events)
 
 Ce dépôt contient le travail de gestion de projet que j'ai réalisé pour faire passer un chatbot IA du stade de **POC** (une démo qui prouve que l'idée marche) au stade de **MVP** (une première version utilisable par de vrais utilisateurs, hébergée dans le cloud).
