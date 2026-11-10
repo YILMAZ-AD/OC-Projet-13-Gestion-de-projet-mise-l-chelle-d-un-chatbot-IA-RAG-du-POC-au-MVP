@@ -8,11 +8,11 @@ Important : ici, **rien n'est codé**. C'est une **étude de conception** : on p
 
 ## Le contexte en deux mots
 
-Je suis Data Engineer en alternance chez **Puls-Events**, une plateforme web qui aide les gens à découvrir des événements culturels. Lors d'un projet précédent, j'ai construit un **POC** : un assistant qui recommande des événements à Brest à partir des données d'OpenAgenda, sans inventer de réponses (architecture RAG).
+Lors d'un projet précédent, j'ai construit un **POC** : un assistant qui recommande des événements à Brest à partir des données d'OpenAgenda, sans inventer de réponses (architecture RAG).
 
-Le POC a plu. Mon responsable technique, **Jérémy**, m'a donc demandé de préparer la suite : un MVP solide, capable de monter en charge.
+Le POC a plu. Mon responsable technique, m'a donc demandé de préparer la suite : un MVP solide, capable de monter en charge.
 
-## Ce que demandait Jérémy
+## Ce qui était demandé :  
 
 Quatre évolutions à intégrer dans la conception :
 
@@ -35,9 +35,9 @@ Et un rapport de gestion de projet qui couvre : besoins, plan de projet, backlog
 | `docs/schema_architecture_MVP.png` | Le schéma de l'architecture cloud |
 | `docs/gantt_planning_MVP.png` | Le planning en diagramme de Gantt |
 
-![Architecture cloud](docs/schema_architecture_MVP.png)
+![Architecture cloud](/schema_architecture_MVP.png)
 
-![Planning](docs/gantt_planning_MVP.png)
+![Planning](/gantt_planning_MVP.png)
 
 ---
 
@@ -111,7 +111,7 @@ Le coût total monte avec la charge, mais le coût **par utilisateur baisse** : 
 | Un même événement renvoyé plusieurs fois | Déduplication par identifiant |
 | 73 % d'offres d'emploi dans les données | Filtrage culturel, devenu une fonctionnalité Must-Have |
 
-### Les décisions demandées à Jérémy
+### Les décisions demandées au responsable technique
 1. Valider le périmètre Must-Have (agent web en repli seulement)
 2. Confirmer un développeur à temps partiel et un appui DevOps
 3. Valider AWS Paris avec une base PostgreSQL unique
@@ -119,19 +119,6 @@ Le coût total monte avec la charge, mais le coût **par utilisateur baisse** : 
 
 ---
 
-## Ce que ce projet m'a appris
-
-- **Cadrer un besoin** flou et le transformer en backlog priorisé
-- **Planifier** avec des jalons, des marges et des risques, plutôt que promettre une date
-- **Justifier un choix technique** par une veille et des critères, pas par habitude
-- **Chiffrer** un projet et son exploitation, et être clair sur ce qui est une hypothèse
-- **Présenter à l'oral** une étude à un responsable technique et défendre ses choix
-
-## À savoir avant de lire les chiffres
-
-- Les coûts sont des **estimations de conception**. Les tarifs journaliers (400 à 600 € selon le profil) sont des **hypothèses de travail** au tarif de marché, modifiables dans le classeur Excel : tout se recalcule.
-- Les prix du cloud sont à confirmer avec le simulateur de coûts AWS, et l'API de recherche web est à valider par devis.
-- Terraform, GitHub Actions, smolagents et le reste de l'architecture sont **proposés dans la conception**, pas mis en production.
 
 ## Par où commencer ?
 
